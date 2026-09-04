@@ -102,3 +102,8 @@ Protected endpoints require authentication. Participant endpoints allow users to
 HTTP response codes such as 200, 201, 204, 400, 401, 403, 404 and 409 are used to clearly communicate the outcome of each request.
 
 **YouTube Video:** To be added after recording.
+## 🎥 Video Demonstration
+
+A complete demonstration of the RaceDay system, including the database, API endpoints, and testing, can be viewed below:
+
+[▶ Watch the RaceDay Demonstration on YouTube](https://youtu.be/3uh-G-Rwejg )
