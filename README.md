@@ -83,5 +83,12 @@ A screenshot of the successful GitHub Actions workflow will be added here after 
 ## Video Demonstration
 
 An unlisted YouTube demonstration will provide a walkthrough of the RaceDay planning documents, ERD design decisions, API endpoint plan and SQL Server database script.
+## Database Design Decisions
+
+The RaceDay database separates general user account information from role-specific profile information. The `Users` table stores shared account details such as name, email, password hash and role, while the `Organizers` and `Participants` tables store information specific to each role.
+
+The `EventEnrollments` table is used as a junction table between Participants and Categories. This resolves the many-to-many relationship because one Participant can enter multiple event categories, while one category can contain many Participants.
+
+Results are linked to EventEnrollments so that each result belongs to a specific Participant registration for a specific event category.
 
 **YouTube Video:** To be added after recording.
