@@ -1,1 +1,82 @@
 # RaceDay
+
+## System Description
+
+RaceDay is a web-based event management system designed for the South African running, walking and cycling community.
+
+The system provides a central platform where Event Organizers can create and manage sporting events, event categories, routes and participant results. Participants can browse upcoming events, enrol in event categories, view route and weather information, and track their personal race performance history.
+
+The aim of RaceDay is to replace disconnected and paper-based event management processes with a structured digital platform that improves event administration and provides participants with easier access to race information.
+
+## User Roles
+
+RaceDay has two main user roles: Event Organizer and Participant.
+
+### Event Organizer
+
+The Event Organizer is responsible for creating and managing events on the RaceDay platform.
+
+An Organizer can:
+
+- Create running, walking and cycling events.
+- Update event information.
+- Create and manage event categories.
+- Add route information.
+- Manage event enrolments.
+- Record participant race results.
+- Update or correct race results.
+
+### Participant
+
+The Participant uses RaceDay to discover and participate in sporting events.
+
+A Participant can:
+
+- Create and manage a RaceDay account.
+- Browse upcoming events.
+- View event categories.
+- Enrol in an event category.
+- View their event registrations.
+- View event route information.
+- View race-day weather information.
+- View their race results and performance history.
+
+## Project Documentation
+
+The planning documentation for Part 1 is stored inside the `/docs` folder.
+
+The folder contains:
+
+- `ERD.png` - RaceDay Entity Relationship Diagram.
+- `RaceDay_API_Endpoint_Plan.pdf` - RESTful API endpoint plan.
+- `RaceDay_Database.sql` - SQL Server database creation and sample data script.
+
+## Database
+
+The RaceDay database was designed for Microsoft SQL Server and contains the following main entities:
+
+- Users
+- Organizers
+- Participants
+- Events
+- Categories
+- EventEnrollments
+- Results
+- Routes
+- WeatherInformation
+
+The database uses primary keys, foreign keys, unique constraints, check constraints and realistic sample data to maintain data integrity.
+
+## CI/CD
+
+GitHub Actions is used to validate the RaceDay repository structure and confirm that the required Part 1 documentation is available.
+
+### CI/CD Screenshot
+
+A screenshot of the successful GitHub Actions workflow will be added here after the workflow has been configured and successfully executed.
+
+## Video Demonstration
+
+An unlisted YouTube demonstration will provide a walkthrough of the RaceDay planning documents, ERD design decisions, API endpoint plan and SQL Server database script.
+
+**YouTube Video:** To be added after recording.
