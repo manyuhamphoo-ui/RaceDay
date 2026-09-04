@@ -69,6 +69,11 @@ The database uses primary keys, foreign keys, unique constraints, check constrai
 
 ## CI/CD
 
+### Successful CI/CD Validation
+
+The GitHub Actions workflow successfully validates that the required RaceDay project documentation is present in the repository.
+
+![RaceDay CI/CD Success](images/git%20success.png)
 GitHub Actions is used to validate the RaceDay repository structure and confirm that the required Part 1 documentation is available.
 
 ### CI/CD Screenshot
