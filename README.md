@@ -91,4 +91,14 @@ The `EventEnrollments` table is used as a junction table between Participants an
 
 Results are linked to EventEnrollments so that each result belongs to a specific Participant registration for a specific event category.
 
+## API Design Decisions
+
+The RaceDay API follows a RESTful structure and uses HTTP methods according to the type of operation being performed.
+
+Public GET endpoints are used for information that should be available without logging in, such as events, event categories, routes and weather information.
+
+Protected endpoints require authentication. Participant endpoints allow users to manage enrolments and view personal results, while Organizer endpoints allow authorized users to create and manage events, categories, routes and results.
+
+HTTP response codes such as 200, 201, 204, 400, 401, 403, 404 and 409 are used to clearly communicate the outcome of each request.
+
 **YouTube Video:** To be added after recording.
